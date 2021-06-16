@@ -162,6 +162,31 @@
 .privacy_policy .text_privacy {
     text-decoration: none;
 }
+@media (min-width: 576px) {
+    .privacy_policy .text_privacy {
+        padding-left: 0rem;
+    }
+}
+@media (min-width: 768px) {
+    .privacy_policy .text_privacy {
+        padding-left: 1rem;
+    }
+}
+@media (min-width: 992px) {
+    .privacy_policy .text_privacy {
+        padding-left: 3rem;
+    }
+}
+@media (min-width: 1200px) {
+    .privacy_policy .text_privacy {
+        padding-left: 4rem;
+    }
+}
+@media (min-width: 1400px) {
+    .privacy_policy .text_privacy {
+        padding-left: 5rem;
+    }
+}
 #footer_vehicles a{
     display: block;
 }
@@ -174,3 +199,27 @@
     font-family: 'Roboto';
     font-weight: 300;
 }
+
+section#contact form#contactForm .form-group {
+    margin-bottom: 1rem;
+  }
+section#contact form#contactForm .form-group input, section#contact form#contactForm .form-group textarea {
+    padding: 0.2rem;
+}
+section#contact form#contactForm ::-webkit-input-placeholder {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 300;
+    color: #595a5c;
+}
+.btn-lg, .btn-group-lg > .btn {
+    padding: 0.1rem 3rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 1.1rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
