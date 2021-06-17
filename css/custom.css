@@ -11,6 +11,30 @@ body {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+#mainNav .navbar-brand {
+    font-size: 1rem;
+}
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+@media (min-width: 992px) {
+    #mainNav .navbar-brand {
+        font-size: 1.05rem;
+    }
+}
+@media (min-width: 1200px) {
+    #mainNav .navbar-brand {
+        font-size: 1.1rem;
+    }
+}
+@media (min-width: 1400px) {
+    #mainNav .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+
+/* ! */
 
 /* ! carousel */
 /* #carouselExampleIndicators { */
@@ -258,4 +282,14 @@ section#contact form#contactForm ::-webkit-input-placeholder {
 }
 .find_out_more:hover {
     text-decoration: underline;
+}
+
+/* ! CARS HOME PAGE */
+.cars-grid .card {
+    border: 0;
+}
+.cars-grid .card-text {
+    font-weight: 500;
+    color: #5f5f5f;
+
 }
